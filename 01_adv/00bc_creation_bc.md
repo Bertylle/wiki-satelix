@@ -1,8 +1,13 @@
+# Création d'un bon de commande
+
 ---
 pour: ADV
 intitulé: Procédure de création d'un bon de commande
 commentaire: ⚠️ IMPORTANT • Renseigner la date de livraison prévue
 ---
+
+## Principe
+
 Cette procédure décrit la **création et la saisie d’un Bon de Commande (BC) côté ADV**, depuis la création du document jusqu’à sa validation, en détaillant **toutes les options possibles** et leurs **impacts sur la chaîne logistique, la préparation et la facturation**. 
 
 ```mermaid
@@ -12,31 +17,34 @@ flowchart TD
     ADV -->|Non CMUP / Portail| HORS[Hors flux WMS]
     
 ```
-   
-### Règle
 
+## Règle
 La création du Bon de Commande reste **inchangée** sur les points suivants :
 - Sélection du client
 - Choix du transporteur
 - Date de commande
 - Conditions tarifaires
 
-Maintenant, la **date de livraison prévue doit impérativement être renseignée** lors de la création du BC.
+### ⚠️ Règle critique –> Date de livraison
 
-[](../media/date_de_livraison.png)
+🔴 **Conséquence**
 
-> **warning.upper():** **La date de livraison prévue impérativement renseignée**
-> Si elle n’est pas saisie, la date par défaut est : `01/01/1753`
-> > **failure.upper():** **Une date non renseignée peut provoquer :** 
-> > - des incohérences dans les flux WMS
-> > - des anomalies de priorisation ou de planification
+Si elle n’est pas saisie, la date par défaut est : `01/01/1753` est apparaîtra tout en bas de la liste des PL.
 
-### Sélection des articles
+🟢 **Bon réflexe**
 
-Il faut savoir que seuls les articles gérés en stock (CMUP) sont visibles pour les préparateurs.
+Renseigner la **date de livraison prévue** lors de la création du BC.
 
-> **failure.upper():** Les articles non gérés en stock (non CMUP) sont invisibles.
-> Exemples : HKPREPAYE, HCOMB, ZREMISE, etc
+
+![Date de livraison](../media/date_de_livraison.png)
+
+### ⚠️ Sélection des articles
+
+Il faut savoir que :
+
+🟢 **seuls les articles gérés en stock (CMUP) sont visibles pour les préparateurs**
+
+🔴 Les articles non gérés en stock (non CMUP) sont invisibles, exemples : HKPREPAYE, HCOMB, ZREMISE, etc.
 
 ---
 ##### Actions à suivre
