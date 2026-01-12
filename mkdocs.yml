@@ -7,7 +7,7 @@ nav:
   - Accueil: index.md
   - ADV:
       - Création d’un BC: adv/creation-bc.md
-      - BC informations libres: info_supp.md
+      - BC informations libres: adv/info_supp.md
 
 markdown_extensions:
   - admonition
