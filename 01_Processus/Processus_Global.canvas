@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"adv","type":"file","file":"02_Roles/ADV.md","x":0,"y":0,"width":300,"height":540},
+		{"id":"optima","type":"file","file":"02_Roles/Pilotage_Optima.md","x":350,"y":0,"width":300,"height":540},
+		{"id":"prep","type":"file","file":"02_Roles/Preparateur.md","x":700,"y":0,"width":300,"height":540},
+		{"id":"sat","type":"file","file":"02_Roles/Satelix_Serveur.md","x":1050,"y":0,"width":320,"height":540},
+		{"id":"trans","type":"file","file":"02_Roles/Transporteur.md","x":1420,"y":0,"width":300,"height":540}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"adv","fromSide":"right","toNode":"optima","toSide":"left"},
+		{"id":"e2","fromNode":"optima","fromSide":"right","toNode":"prep","toSide":"left"},
+		{"id":"e3","fromNode":"prep","fromSide":"right","toNode":"sat","toSide":"left"},
+		{"id":"e4","fromNode":"sat","fromSide":"right","toNode":"trans","toSide":"left"}
+	]
+}

@@ -4,7 +4,7 @@ intitulé: Commandes contenant au moins un produit non-suivi en stock
 commentaire: Articles non pris en charge par le WMS - Utiliser les procédures historiques
 ---
 
-> [!failure] **Commande avec articles non-suivi en stock**
+> **failure.upper():** **Commande avec articles non-suivi en stock**
 >  Les articles **non gérés en stock** ne sont **jamais visibles sur les terminaux logistiques**.  
 Ils ne doivent donc **ni être réceptionnés ni préparés** via le WMS.
 > 
@@ -15,7 +15,7 @@ Ils ne doivent donc **ni être réceptionnés ni préparés** via le WMS.
 > 
 >  - [ ] PHOTO DU TERMINAL → Module Réception Fournisseur → Ouverture d'un BL avec aucun article a scanner → photo du message d'erreur lorsqu'on essaye de finaliser la réception. #photo 
 
-> [!warning] Règle à retenir — Articles non gérés en stock
+> **warning.upper():** Règle à retenir — Articles non gérés en stock
 > A son arrivée à l'entrepôt, la marchandise doit être **contrôlée physiquement**, validée sur les documents papier, puis **prise en charge par l’ADV** pour la mise à jour administrative, **sans impact sur le stock**.
 > 
 >  **Les étapes recommandées sont :**
@@ -27,5 +27,5 @@ Ils ne doivent donc **ni être réceptionnés ni préparés** via le WMS.
 
 ---
 ##### Menus
-[[00BC • Création BC|↩️ Retour à la création d'un bon de commande]]
-[[00_Home/Accueil|↑ Retour à l'accueil]]
+[↩️ Retour à la création d'un bon de commande](00BC • Création BC.md)
+[↑ Retour à l'accueil](00_Home/Accueil.md)

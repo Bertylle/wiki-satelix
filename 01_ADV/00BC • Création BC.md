@@ -23,11 +23,11 @@ La création du Bon de Commande reste **inchangée** sur les points suivants :
 
 Maintenant, la **date de livraison prévue doit impérativement être renseignée** lors de la création du BC.
 
-![[date_de_livraison.png]]
+![](date_de_livraison.png)
 
-> [!warning] **La date de livraison prévue impérativement renseignée**
+> **warning.upper():** **La date de livraison prévue impérativement renseignée**
 > Si elle n’est pas saisie, la date par défaut est : `01/01/1753`
-> > [!failure] **Une date non renseignée peut provoquer :** 
+> > **failure.upper():** **Une date non renseignée peut provoquer :** 
 > > - des incohérences dans les flux WMS
 > > - des anomalies de priorisation ou de planification
 
@@ -35,27 +35,15 @@ Maintenant, la **date de livraison prévue doit impérativement être renseigné
 
 Il faut savoir que seuls les articles gérés en stock (CMUP) sont visibles pour les préparateurs.
 
-> [!failure] Les articles non gérés en stock (non CMUP) sont invisibles.
+> **failure.upper():** Les articles non gérés en stock (non CMUP) sont invisibles.
 > Exemples : HKPREPAYE, HCOMB, ZREMISE, etc
 
 ---
 ##### Actions à suivre
-[Retour à l’index](01BC • Informations supplémentaires)
-[[01BC • Informations supplémentaires|✔️ Commande pour articles suivi en stock]]
-[[02BC • Articles non-suivi en stock]]
+[✔️ Commande pour articles suivi en stock](01BC • Informations supplémentaires.md)
+[02BC • Articles non-suivi en stock](02BC • Articles non-suivi en stock.md)
 Commande pour des articles programmés avec fournisseur associés
-[[02BC • Statut Portail|❌ Commande avec Statut Portail]]
-
----
-### Actions à suivre
-
-- ↩️ [Retour à l’index ADV](index.md)
-- ✔️ [Commande avec articles suivis en stock](bc_articles_suivi_stock.md)
-- ❌ [Commande avec articles non gérés en stock](bc_articles_non_suivi_stock.md)
-- 📦 [Commande avec fournisseur adossé](bc_fournisseur_adosse.md)
-- 🚫 [Commande avec statut Portail](bc_statut_portail.md)
-
-
+[❌ Commande avec Statut Portail](02BC • Statut Portail.md)
 
 | Type d’article | Exemples                        | Visible terminal | Action ADV         |
 | -------------- | ------------------------------- | ---------------- | ------------------ |
@@ -64,8 +52,7 @@ Commande pour des articles programmés avec fournisseur associés
 | Portail        |                                 | ❌                | Procédure manuelle |
 
 ##### Menus
-[[00_Home/Accueil|↑ Retour à l'accueil]]
-
+[↑ Retour à l'accueil](00_Home/Accueil.md)
 
 ---
 

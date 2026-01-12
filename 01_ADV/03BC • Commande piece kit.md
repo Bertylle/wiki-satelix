@@ -3,7 +3,7 @@ pour: ADV
 intitulé: Création de commandes avec des pièces issus de kits
 commentaire: ⚠️ CRITIQUE • Décomposer un kit immédiatement après création de la commande
 ---
-> [!warning] **La décomposition du kit est indispensable**
+> **warning.upper():** **La décomposition du kit est indispensable**
 > 
 > Lorsqu’une commande client inclut **une pièce issue d’un kit** (ex. `ANGOLO/KITFLO4`), **le kit doit impérativement être décomposé en stock avant toute préparation**.
 > Cette opération consiste à :
@@ -11,7 +11,7 @@ commentaire: ⚠️ CRITIQUE • Décomposer un kit immédiatement après créat
 > - injecter en stock chacune des pièces composantes
 > - mettre à jour les quantités correspondantes
 
-> [!example] Exemple concret : `ANGOLO/KITFLO4`
+> **example.upper():** Exemple concret : `ANGOLO/KITFLO4`
 > 
 > | Article               | Stock initial | Action stock              | Stock final |
 > |-----------------------|---------------|---------------------------|-------------|
@@ -21,12 +21,12 @@ commentaire: ⚠️ CRITIQUE • Décomposer un kit immédiatement après créat
 | BRAS 580A             | 0             | Entrée composant (×2)     | 2           |
 | EMETTEURS FLO4        | 0             | Entrée composant (×2)     | 2           |
 
-> [!failure] **Un kit non décomposé entraîne**
+> **failure.upper():** **Un kit non décomposé entraîne**
 > Une pièce considérée comme manquante en stock sur le terminal logistique.
 > 
 > Deux cas possibles :
 > 1. Le préparateur identifie l’anomalie et prévient l’ADV
-> > [!success] L'ADV procède à la mise à jour des quantités.
+> > **success.upper():** L'ADV procède à la mise à jour des quantités.
 > > → La préparation peut ensuite être reprise correctement.
 > 
 >  2. Le préparateur ne détecte pas l’anomalie et finalise la préparation en validant le message :  _« Voulez-vous finaliser même s’il manque des pièces ? »_
@@ -40,8 +40,8 @@ commentaire: ⚠️ CRITIQUE • Décomposer un kit immédiatement après créat
 
 ---
 ##### Actions à suivre
-[[05 Transformation PL]]
+[05 Transformation PL](05 Transformation PL.md)
 
 ##### Menus
-[[00BC • Création BC|↩️ Retour à la création d'un bon de commande]]
-[[00_Home/Accueil|↑ Retour à l'accueil]]
+[↩️ Retour à la création d'un bon de commande](00BC • Création BC.md)
+[↑ Retour à l'accueil](00_Home/Accueil.md)
