@@ -46,6 +46,17 @@ Il faut savoir que seuls les articles gérés en stock (CMUP) sont visibles pour
 Commande pour des articles programmés avec fournisseur associés
 [[02BC • Statut Portail|❌ Commande avec Statut Portail]]
 
+---
+### Actions à suivre
+
+- ↩️ [Retour à l’index ADV](index.md)
+- ✔️ [Commande avec articles suivis en stock](bc_articles_suivi_stock.md)
+- ❌ [Commande avec articles non gérés en stock](bc_articles_non_suivi_stock.md)
+- 📦 [Commande avec fournisseur adossé](bc_fournisseur_adosse.md)
+- 🚫 [Commande avec statut Portail](bc_statut_portail.md)
+
+
+
 | Type d’article | Exemples                        | Visible terminal | Action ADV         |
 | -------------- | ------------------------------- | ---------------- | ------------------ |
 | CMUP           | KITGEKOX, HTEL300, BO800RN, ... | ✅                | PL au statut SAISI |
