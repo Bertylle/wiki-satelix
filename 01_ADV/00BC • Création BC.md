@@ -40,6 +40,7 @@ Il faut savoir que seuls les articles gérés en stock (CMUP) sont visibles pour
 
 ---
 ##### Actions à suivre
+[Retour à l’index](01BC • Informations supplémentaires)
 [[01BC • Informations supplémentaires|✔️ Commande pour articles suivi en stock]]
 [[02BC • Articles non-suivi en stock]]
 Commande pour des articles programmés avec fournisseur associés
@@ -53,6 +54,7 @@ Commande pour des articles programmés avec fournisseur associés
 
 ##### Menus
 [[00_Home/Accueil|↑ Retour à l'accueil]]
+
 
 ---
 
