@@ -1,0 +1,14 @@
+site_name: Wiki Satelix – Support utilisateur
+
+theme:
+  name: material
+
+nav:
+  - Accueil: index.md
+  - ADV:
+      - Création d’un BC: adv/creation-bc.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
