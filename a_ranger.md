@@ -1,1 +1,0 @@
-- [ ] PHOTO DU TERMINAL → Module Consultation → Photo de la fiche article pour montrer qu'il n'y a pas d'emplacement principal indiqué #photo #averifier 
