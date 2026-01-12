@@ -1,0 +1,22 @@
+properties:
+  note.commentaire:
+    displayName: Recommandation
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - pour == "ADV"
+    order:
+      - file.name
+      - intitulé
+      - commentaire
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: commentaire
+        direction: ASC
+    columnSize:
+      file.name: 57
+      note.intitulé: 385
+      note.commentaire: 641
