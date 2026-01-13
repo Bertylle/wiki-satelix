@@ -5,7 +5,6 @@ Cette procédure décrit la **création et la saisie d’un Bon de Commande (BC)
 ## Règle
 
 La création du Bon de Commande reste **inchangée** sur les points suivants :  
-
 - Sélection du client  
 - Choix du transporteur  
 - Date de commande  
