@@ -1,4 +1,4 @@
-site_name: Wiki Satelix – Support utilisateur
+site_name: Satelix – Support utilisateur
 
 theme:
   name: material
@@ -13,4 +13,6 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
 

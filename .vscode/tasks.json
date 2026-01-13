@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "MkDocs: serve",
+      "type": "shell",
+      "command": "source .venv/bin/activate && mkdocs serve",
+      "problemMatcher": [],
+      "isBackground": true
+    }
+  ]
+}
+

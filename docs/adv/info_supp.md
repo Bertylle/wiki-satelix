@@ -6,12 +6,12 @@ commentaire: |-
   2. Ne pas utiliser le champ commentaire pour transmettre des infos importantes
 ---
 
-## Présentation des infos libres ^haut
+## Présentation des infos libres
 Des champs libres d’en-tête peuvent être renseignés si nécessaire pour notifier les préparateurs avec des informations complémentaires. Les infos libres sont accessibles via le bouton `Informations → Infos libres`
 
 ![[acces_infos_libres.gif]]
-
----
+et quand je fais çaklsdnfkjfjkdfdgfghfhgf
+---fdgfd
 [[01BC • Informations supplémentaires#^bas|⬇️Actions à suivre]]
 
 ---

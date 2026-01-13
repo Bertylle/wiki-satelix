@@ -1,10 +1,19 @@
-# Procédure de création d’un bon de commande (ADV)
+# Création d’un bon de commande
 
-!!! warning "IMPORTANT – Date de livraison"
-    Renseigner la **date de livraison prévue**.
+Cette procédure décrit la **création et la saisie d’un Bon de Commande (BC) côté ADV**, depuis la création du document jusqu’à sa validation, en détaillant **toutes les options possibles** et leurs **impacts sur la chaîne logistique, la préparation et la facturation**. 
 
-    !!! note "Pourquoi ?"
-        Sinon, valeur par défaut et risque d’erreur planning.
+## Règle
+
+La création du Bon de Commande reste **inchangée** sur les points suivants :  
+- Sélection du client  
+- Choix du transporteur  
+- Date de commande  
+- Conditions tarifaires  
+
+
+!!! warning "**La date de livraison prévue impérativement renseignée**"
+	Si elle n’est pas saisie, la date par défaut est : `01/01/1753`.  
+	Elle sera affichée tout en bas dans la liste des préparations.
 
 ![Date de livraison](../media/date_de_livraison.png)
 
@@ -12,4 +21,3 @@
 - [ ] Renseigner la date de livraison
 - [ ] Vérifier statut du document
 - [ ] Ajouter commentaire / instruction logistique
-
