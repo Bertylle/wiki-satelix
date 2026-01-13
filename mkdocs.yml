@@ -1,7 +1,7 @@
 site_name: Satelix – Support utilisateur
 
 theme:
-  name: material
+  name: rtd-dropdown
 
 nav:
   - Accueil: index.md

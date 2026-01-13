@@ -12,8 +12,8 @@ La création du Bon de Commande reste **inchangée** sur les points suivants :
 - Conditions tarifaires  
 
 !!! warning "**La date de livraison prévue impérativement renseignée**"
-Si elle n’est pas saisie, la date par défaut est : `01/01/1753`.  
- Elle sera affichée tout en bas dans la liste des préparations.
+	Si elle n’est pas saisie, la date par défaut est : `01/01/1753`.  
+	Elle sera affichée tout en bas dans la liste des préparations.
 
 ![Date de livraison](../media/date_de_livraison.png)
 
@@ -22,7 +22,7 @@ Si elle n’est pas saisie, la date par défaut est : `01/01/1753`.
 Seuls les articles gérés en stock (CMUP) sont visibles pour les préparateurs.
 
 !!!failure "Les articles non gérés en stock (non CMUP) sont invisibles"
- Exemples : HKPREPAYE, HCOMB, ZREMISE, etc
+	Exemples : HKPREPAYE, HCOMB, ZREMISE, etc
 
 ## Checklist
 
